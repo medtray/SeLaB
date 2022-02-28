@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## Data
 
 We use `WikiTables` collection for evaluation. This dataset is composed of the `WikiTables` corpus which contains over 1.6𝑀 tables that are extracted from Wikipedia. Since a lot of tables have unexpected formats, we preprocess tables so that we only keep tables that have enough content with at least 3 columns and 50 rows. We further filter the columns whose schema labels appear less than 10 times in the table corpus, as there are not enough data tables that can be used to train the
-model to recognize these labels. We experiment on 15, 252 data tables, with a total number of columns equal to 82, 981. The total number of schema labels is equal to 1088. The dataset could be downloaded from this [Google Drive shared folder](https://drive.google.com/file/d/1lv2Q5yPHuvi99Ut2oIZbk7aijehrQcup/view?usp=sharing).
+model to recognize these labels. We experiment on 15, 252 data tables, with a total number of columns equal to 82, 981. The total number of schema labels is equal to 1088. The dataset could be downloaded from this [Google Drive shared folder](https://drive.google.com/file/d/1lv2Q5yPHuvi99Ut2oIZbk7aijehrQcup/view?usp=sharing). Please unzip the downloaded file, and place it in the foler `data`.
 
 
 ## Training with SeLaB
