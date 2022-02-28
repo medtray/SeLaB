@@ -13,7 +13,6 @@ import torch
 stop_words = set(stopwords.words('english'))
 cwd = os.getcwd()
 
-#sys_home = '/data/mohamedt/Nokia_work'
 sys_home = os.path.join(cwd,'outputs')
 if not os.path.exists(sys_home):
     os.mkdir(sys_home)
